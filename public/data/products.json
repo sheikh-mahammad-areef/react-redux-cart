@@ -1,0 +1,303 @@
+[
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 599.99,
+      "quantity": 10,
+      "image": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+      "description": "A powerful smartphone with an advanced camera system and high-speed performance.",
+      "new": true
+    },
+    {
+      "id": 2,
+      "name": "Gaming Laptop",
+      "category": "Electronics",
+      "price": 1299.99,
+      "quantity": 5,
+      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "description": "High-performance gaming laptop with a dedicated graphics card and large memory.",
+      "new": false
+    },
+    {
+      "id": 3,
+      "name": "Wireless Earbuds",
+      "category": "Electronics",
+      "price": 149.99,
+      "quantity": 50,
+      "image": "https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp",
+      "description": "Bluetooth-enabled wireless earbuds with noise-cancellation technology.",
+      "new": true
+    },
+    {
+      "id": 4,
+      "name": "Electric Kettle",
+      "category": "Home Appliances",
+      "price": 39.99,
+      "quantity": 0,
+      "image": "https://img.daisyui.com/images/stock/photo-1564135624576-c5c88640f235.webp",
+      "description": "Stainless steel electric kettle with automatic shutoff and boil-dry protection.",
+      "new": false
+    },
+    {
+      "id": 5,
+      "name": "Running Shoes",
+      "category": "Fashion",
+      "price": 89.99,
+      "quantity": 20,
+      "image": "https://img.daisyui.com/images/stock/photo-1572010740626-483c90edb8b2.webp",
+      "description": "Lightweight and comfortable running shoes designed for long-distance running.",
+      "new": true
+    },
+    {
+      "id": 6,
+      "name": "Leather Jacket",
+      "category": "Fashion",
+      "price": 299.99,
+      "quantity": 15,
+      "image": "https://img.daisyui.com/images/stock/photo-1551808520-3a5310f2ab36.webp",
+      "description": "Classic leather jacket made from genuine leather with a timeless design.",
+      "new": false
+    },
+    {
+      "id": 7,
+      "name": "Blender",
+      "category": "Home Appliances",
+      "price": 59.99,
+      "quantity": 80,
+      "image": "https://img.daisyui.com/images/stock/photo-1523475496153-3d6ccf84e52b.webp",
+      "description": "High-speed blender perfect for smoothies, soups, and sauces.",
+      "new": true
+    },
+    {
+      "id": 8,
+      "name": "Yoga Mat",
+      "category": "Sports",
+      "price": 19.99,
+      "quantity": 200,
+      "image": "https://img.daisyui.com/images/stock/photo-1556484687-30636164638c.webp",
+      "description": "Non-slip yoga mat made from eco-friendly materials for a comfortable workout.",
+      "new": false
+    },
+    {
+      "id": 9,
+      "name": "Fitness Tracker",
+      "category": "Electronics",
+      "price": 79.99,
+      "quantity": 40,
+      "image": "https://img.daisyui.com/images/stock/photo-1547042296-c648d8e04ee3.webp",
+      "description": "Track your steps, heart rate, and calories burned with this waterproof fitness tracker.",
+      "new": true
+    },
+    {
+      "id": 10,
+      "name": "Bookshelf",
+      "category": "Furniture",
+      "price": 159.99,
+      "quantity": 10,
+      "image": "https://img.daisyui.com/images/stock/photo-1516387938699-a93567ec168e.webp",
+      "description": "Wooden bookshelf with 5 tiers, perfect for organizing books and decorative items.",
+      "new": false
+    },
+    {
+      "id": 11,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 49.99,
+      "quantity": 35,
+      "image": "https://img.daisyui.com/images/stock/photo-1585421514286-efb87d4d5b05.webp",
+      "description": "Portable Bluetooth speaker with powerful sound and long battery life.",
+      "new": true
+    },
+    {
+      "id": 12,
+      "name": "Sunglasses",
+      "category": "Fashion",
+      "price": 89.99,
+      "quantity": 25,
+      "image": "https://img.daisyui.com/images/stock/photo-1492447166138-50c3889fccb1.webp",
+      "description": "Stylish polarized sunglasses with UV protection and durable frames.",
+      "new": false
+    },
+    {
+      "id": 13,
+      "name": "Electric Toothbrush",
+      "category": "Beauty & Personal Care",
+      "price": 59.99,
+      "quantity": 60,
+      "image": "https://img.daisyui.com/images/stock/photo-1512486130939-2c4f799b0494.webp",
+      "description": "Rechargeable electric toothbrush with multiple brushing modes.",
+      "new": true
+    },
+    {
+      "id": 14,
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
+      "price": 89.99,
+      "quantity": 50,
+      "image": "https://img.daisyui.com/images/stock/photo-1582100537365-dcf0c548357f.webp",
+      "description": "Programmable coffee maker with a built-in grinder and timer.",
+      "new": false
+    },
+    {
+      "id": 15,
+      "name": "Desk Lamp",
+      "category": "Office Supplies",
+      "price": 29.99,
+      "quantity": 70,
+      "image": "https://img.daisyui.com/images/stock/photo-1506748686214-e9df14d4d9d0.webp",
+      "description": "Adjustable desk lamp with LED lighting and USB charging port.",
+      "new": true
+    },
+    {
+      "id": 16,
+      "name": "Basketball",
+      "category": "Sports",
+      "price": 29.99,
+      "quantity": 100,
+      "image": "https://img.daisyui.com/images/stock/photo-1582225479992-0b5f12d2214d.webp",
+      "description": "Official size and weight basketball made from durable synthetic leather.",
+      "new": false
+    },
+    {
+      "id": 17,
+      "name": "Action Camera",
+      "category": "Electronics",
+      "price": 199.99,
+      "quantity": 20,
+      "image": "https://img.daisyui.com/images/stock/photo-1579942085244-0c60b2a35a98.webp",
+      "description": "Waterproof action camera with 4K video recording and image stabilization.",
+      "new": true
+    },
+    {
+      "id": 18,
+      "name": "Winter Jacket",
+      "category": "Fashion",
+      "price": 199.99,
+      "quantity": 30,
+      "image": "https://img.daisyui.com/images/stock/photo-1504376379682-904a66bb9f8b.webp",
+      "description": "Insulated winter jacket with a waterproof shell and adjustable hood.",
+      "new": false
+    },
+    {
+      "id": 19,
+      "name": "Acoustic Guitar",
+      "category": "Musical Instruments",
+      "price": 299.99,
+      "quantity": 8,
+      "image": "https://img.daisyui.com/images/stock/photo-1515807661825-ac05e9d0edf4.webp",
+      "description": "6-string acoustic guitar with a rich sound and high-quality build.",
+      "new": true
+    },
+    {
+      "id": 20,
+      "name": "Air Fryer",
+      "category": "Home Appliances",
+      "price": 149.99,
+      "quantity": 25,
+      "image": "https://img.daisyui.com/images/stock/photo-1504198458649-3128b932d7a7.webp",
+      "description": "Healthy air fryer with multiple cooking modes and a digital display.",
+      "new": false
+    },
+    {
+      "id": 21,
+      "name": "Digital Camera",
+      "category": "Electronics",
+      "price": 499.99,
+      "quantity": 12,
+      "image": "https://img.daisyui.com/images/stock/photo-1499951360447-b19be8fe80f5.webp",
+      "description": "Compact digital camera with a 24MP sensor and 1080p video recording.",
+      "new": true
+    },
+    {
+      "id": 22,
+      "name": "Wristwatch",
+      "category": "Fashion",
+      "price": 199.99,
+      "quantity": 40,
+      "image": "https://img.daisyui.com/images/stock/photo-1560464024-54e508950d66.webp",
+      "description": "Luxury wristwatch with a leather strap and water-resistant design.",
+      "new": false
+    },
+    {
+      "id": 23,
+      "name": "Smart TV",
+      "category": "Electronics",
+      "price": 799.99,
+      "quantity": 10,
+      "image": "https://img.daisyui.com/images/stock/photo-1580269737752-3ee6f7b9ed82.webp",
+      "description": "4K Ultra HD smart TV with built-in streaming apps and voice control.",
+      "new": true
+    },
+    {
+      "id": 24,
+      "name": "Headphones",
+      "category": "Electronics",
+      "price": 149.99,
+      "quantity": 60,
+      "image": "https://img.daisyui.com/images/stock/photo-1565808222449-2ac80331e1e0.webp",
+      "description": "Noise-canceling over-ear headphones with a comfortable fit and premium sound.",
+      "new": false
+    },
+    {
+      "id": 25,
+      "name": "Electric Scooter",
+      "category": "Sports",
+      "price": 499.99,
+      "quantity": 15,
+      "image": "https://img.daisyui.com/images/stock/photo-1546443046-f68b8c6632e6.webp",
+      "description": "Lightweight electric scooter with a top speed of 25 mph and long battery life.",
+      "new": true
+    },
+    {
+      "id": 26,
+      "name": "Gaming Mouse",
+      "category": "Electronics",
+      "price": 59.99,
+      "quantity": 100,
+      "image": "https://img.daisyui.com/images/stock/photo-1574860537663-5e90faccbe67.webp",
+      "description": "Ergonomic gaming mouse with adjustable DPI and customizable buttons.",
+      "new": false
+    },
+    {
+      "id": 27,
+      "name": "Wireless Keyboard",
+      "category": "Electronics",
+      "price": 49.99,
+      "quantity": 50,
+      "image": "https://img.daisyui.com/images/stock/photo-1582502182512-d9a4f1aa8524.webp",
+      "description": "Wireless keyboard with a sleek design and long battery life.",
+      "new": true
+    },
+    {
+      "id": 28,
+      "name": "Portable Charger",
+      "category": "Electronics",
+      "price": 39.99,
+      "quantity": 75,
+      "image": "https://img.daisyui.com/images/stock/photo-1587050265605-f2b52f0253b8.webp",
+      "description": "Compact portable charger with fast charging and multiple USB ports.",
+      "new": false
+    },
+    {
+      "id": 29,
+      "name": "Treadmill",
+      "category": "Sports",
+      "price": 899.99,
+      "quantity": 8,
+      "image": "https://img.daisyui.com/images/stock/photo-1580861224052-a8e70d1108df.webp",
+      "description": "High-end treadmill with multiple workout programs and a heart rate monitor.",
+      "new": true
+    },
+    {
+      "id": 30,
+      "name": "Smart Home Hub",
+      "category": "Electronics",
+      "price": 99.99,
+      "quantity": 25,
+      "image": "https://img.daisyui.com/images/stock/photo-1535821114007-71f073f9b7d2.webp",
+      "description": "Control your smart home devices with this easy-to-use smart home hub.",
+      "new": false
+    }
+  ]
+  
