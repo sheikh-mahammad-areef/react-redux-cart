@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Header = () => {
+
+  const TotalCartProducts = useSelector((state) => state.cart.totalQuantity);
+  const TotalCartPrice = useSelector((state) => state.cart.totalPrice);
+
   return (
     <div className="navbar bg-base-100 fixed top-0 left-0 right-0 z-50 shadow-sm shadow-slate-600">
       <div className="navbar-start">
@@ -26,13 +31,13 @@ const Header = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <Link to="/counter"> Counter</Link>
             </li>
             <li>
               <a>Parent</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Submenu dsd</a>
                 </li>
                 <li>
                   <a>Submenu 2</a>
@@ -49,7 +54,7 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+          <Link to="/counter"> Counter</Link>
           </li>
           <li>
             <details>
@@ -87,7 +92,7 @@ const Header = () => {
                   d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                 />
               </svg>
-              <span className="badge badge-sm indicator-item">8</span>
+              <span className="badge badge-sm indicator-item">{TotalCartProducts}</span>
             </div>
           </div>
           <div
@@ -95,10 +100,10 @@ const Header = () => {
             className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
           >
             <div className="card-body">
-              <span className="text-lg font-bold">8 Items</span>
-              <span className="text-info">Subtotal: $999</span>
+              <span className="text-lg font-bold">{TotalCartProducts} Items</span>
+              <span className="text-info">Subtotal: ₹ {TotalCartPrice.toFixed(2)}</span>
               <div className="card-actions">
-                <button className="btn btn-primary btn-block">View cart</button>
+                <Link className="btn btn-primary btn-block" to="/cart"> View cart</Link>
               </div>
             </div>
           </div>
